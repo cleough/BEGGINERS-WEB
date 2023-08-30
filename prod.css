@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Tahoma;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 700px;
+    position: fixed;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: solid;
+    color: rgb(252, 248, 248);
+    padding: 5px 30px;
+    border: 0cap;
+    transition: 0.6s ease-out;
+    background-color: #4433207a;
+}
+ul li a:hover{
+    scale: 0.9;
+    background-color: rgb(213, 164, 100);
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+}
+main{
+    max-width: 1200px;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://foodietrend.com/wp-content/uploads/2020/08/manikas-group-biljka-kafe-blog-1024x683.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.pic img{
+    width: 600px;
+    height: 300px;
+    border: #443320 solid;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.text{
+    color: white;
+    margin: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    background-color: #44332088;
+}
+.logo{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    position: fixed;
+    background-color: #44332057;
+    padding: 10px;
+}
+
+.h{
+    color: #fff;
+    font-family: tahoma;
+    font-size: 40px;
+    background-color: #44332089;
+}
+h4{
+    color: #fff;
+    font-family: tahoma;
+    font-size: 60px;
+}
+.beans{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.beans img{
+    display: block;
+    height: 250px;
+    width: 300px;
+    padding: 0px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: #443320 solid;
+    box-shadow: 0 0 40px 0px rgba(200, 137, 49, 0.72);
+    cursor: pointer;
+}
+.content{
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 900;
+}
+.photo:hover{
+    transform:scale(0.9);
+    z-index:1;
+}
+.merch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+.cup img{
+    display: block;
+    height: 250px;
+    width: 300px;
+    padding: 0px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: #443320 solid;
+    box-shadow: 0 0 40px 0px rgba(200, 137, 49, 0.72);
+}
+.cup:hover{
+    transform:scale(0.9);
+    z-index:1;
+}

@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: tahoma;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://foodietrend.com/wp-content/uploads/2020/08/manikas-group-biljka-kafe-blog-1024x683.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 700px;
+    position: fixed;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: solid;
+    color: rgb(252, 248, 248);
+    padding: 5px 30px;
+    border: 0cap;
+    transition: 0.6s ease-out;
+    background-color: #4433206a;
+}
+ul li a:hover{
+    scale: 0.9;
+    background-color: rgb(213, 164, 100);
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+}
+.logo{
+    color: #fff;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+    position: fixed;
+    background-color: #4433207c;
+    padding: 10px;
+}
+
+h1{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: tahoma;
+    font-weight: 900;
+    background-color: #443320c2;
+    color: #fff;
+}
+p{
+    font-family: sans-serif;
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.add{
+    margin-top: 50px;
+    color: white;
+    font-family: georgia;
+    font-size: 30px;
+}
